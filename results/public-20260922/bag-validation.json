@@ -1,0 +1,50 @@
+{
+  "topic_counts": {
+    "/amcl_pose": 2,
+    "/tf": 697,
+    "/clock": 464,
+    "/tf_static": 1,
+    "/odom": 464,
+    "/scan": 46,
+    "/plan": 3,
+    "/cmd_vel": 93
+  },
+  "message_count": 1770,
+  "duration_sim_sec": 9.296,
+  "clock_advance_sim_sec": 9.275999999999982,
+  "odom_displacement_m": 0.4570445536389974,
+  "odom_start": [
+    9.600784779805843e-09,
+    -2.214038761393943e-21,
+    9.595295105615121e-21,
+    -9.533256559673644e-19
+  ],
+  "odom_end": [
+    0.45703381651023095,
+    -0.0031342228589240954,
+    0.0,
+    0.0
+  ],
+  "nonzero_cmd_vel_messages": 61,
+  "max_path_poses": 27,
+  "static_tf_edges": [
+    [
+      "/base_footprint",
+      "/base_link"
+    ],
+    [
+      "/base_link",
+      "/base_scan"
+    ],
+    [
+      "/base_link",
+      "/caster_back_link"
+    ],
+    [
+      "/base_link",
+      "/imu_link"
+    ]
+  ],
+  "time_basis": "ros2 bag record --use-sim-time; bag timestamps are simulation time, not UTC",
+  "validation": "offline deserialization; no playback into running Nav2"
+}

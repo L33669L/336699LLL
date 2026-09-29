@@ -1,0 +1,19 @@
+
+Files:             navigation-bag_0.mcap
+Bag size:          710.6 KiB
+Storage id:        mcap
+ROS Distro:        jazzy
+Duration:          9.296000000s
+Start:             Jan  1 1970 09:03:07.887000000 (187.887000000)
+End:               Jan  1 1970 09:03:17.183000000 (197.183000000)
+Messages:          1770
+Topic information: Topic: /amcl_pose | Type: geometry_msgs/msg/PoseWithCovarianceStamped | Count: 2 | Serialization Format: cdr
+                   Topic: /clock | Type: rosgraph_msgs/msg/Clock | Count: 464 | Serialization Format: cdr
+                   Topic: /cmd_vel | Type: geometry_msgs/msg/TwistStamped | Count: 93 | Serialization Format: cdr
+                   Topic: /odom | Type: nav_msgs/msg/Odometry | Count: 464 | Serialization Format: cdr
+                   Topic: /plan | Type: nav_msgs/msg/Path | Count: 3 | Serialization Format: cdr
+                   Topic: /scan | Type: sensor_msgs/msg/LaserScan | Count: 46 | Serialization Format: cdr
+                   Topic: /tf | Type: tf2_msgs/msg/TFMessage | Count: 697 | Serialization Format: cdr
+                   Topic: /tf_static | Type: tf2_msgs/msg/TFMessage | Count: 1 | Serialization Format: cdr
+Service:           0
+Service information: 

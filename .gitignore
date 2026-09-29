@@ -1,0 +1,49 @@
+# Build, runtime, editor and local environment files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.coverage
+htmlcov/
+build/
+install/
+log/
+logs/
+.vscode/
+.idea/
+.run.lock
+*.tmp
+*.swp
+*.log
+*.journal
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+# Original evidence and recovery snapshots stay local, unchanged.
+/archive/
+/evidence/
+*.mcap
+*.db3
+*.db3-*
+*.bag
+*.tar.gz
+*.zip
+# Publish only curated, reviewed evidence copies.
+/results/*
+!/results/README.md
+!/results/public-20260922/
+!/results/public-20260927/
+# Historical handoffs include machine details; preserve locally.
+/docs/*
+!/docs/工程化重构.md
+!/docs/环境操作说明.md
+!/docs/文件说明.md
+!/docs/测试报告.md
+!/docs/公开证据说明.md
+!/results/publication-20260929/

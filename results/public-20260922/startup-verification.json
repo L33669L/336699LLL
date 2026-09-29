@@ -1,0 +1,77 @@
+{
+  "lifecycle": {
+    "map_server": "active",
+    "amcl": "active",
+    "controller_server": "active",
+    "smoother_server": "active",
+    "planner_server": "active",
+    "route_server": "active",
+    "behavior_server": "active",
+    "bt_navigator": "active",
+    "waypoint_follower": "active",
+    "velocity_smoother": "active",
+    "collision_monitor": "active",
+    "docking_server": "active",
+    "global_costmap/global_costmap": "active",
+    "local_costmap/local_costmap": "active"
+  },
+  "managers": {
+    "localization": true,
+    "navigation": true
+  },
+  "tf": {
+    "map->odom": {
+      "x": -1.9997991112633882,
+      "y": -0.5034579092925173,
+      "z": 0.0
+    },
+    "odom->base_footprint": {
+      "x": 9.600832107036866e-09,
+      "y": -2.2140678551259827e-21,
+      "z": 0.0
+    },
+    "base_footprint->base_link": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.01
+    },
+    "base_link->base_scan": {
+      "x": -0.032,
+      "y": 0.0,
+      "z": 0.172
+    },
+    "map->base_link": {
+      "x": -1.9997991016625964,
+      "y": -0.5034579092646823,
+      "z": 0.01
+    }
+  },
+  "counts_before": {
+    "odom": 340,
+    "clock": 340,
+    "global_costmap": 6,
+    "scan": 34,
+    "local_costmap": 12
+  },
+  "ground_truth_before": {
+    "x": -2.0071897724455146,
+    "y": -0.500000000002171,
+    "yaw": -1.1715267772321316e-08
+  },
+  "ready": true,
+  "counts": {
+    "odom": 340,
+    "clock": 340,
+    "global_costmap": 6,
+    "scan": 34,
+    "local_costmap": 12
+  },
+  "stamp_rates": {
+    "odom": 50.0,
+    "global_costmap": 0.7562008469449486,
+    "scan": 5.0,
+    "local_costmap": 1.7710513604894542
+  },
+  "scan_frame": "base_scan",
+  "scan_finite_ranges": 327
+}

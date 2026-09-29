@@ -1,0 +1,6 @@
+# 静态 TF 使用持久订阅，录制晚于发布时仍可收到。
+/tf_static:
+  history: keep_last
+  depth: 100
+  reliability: reliable
+  durability: transient_local

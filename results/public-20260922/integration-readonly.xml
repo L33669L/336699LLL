@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="2" time="4.489" timestamp="2026-09-22T16:04:44.695324"><testcase classname="tests.test_integration" name="test_live_pose_and_sensors" time="3.979" /><testcase classname="tests.test_integration" name="test_missing_action_server" time="0.478" /></testsuite></testsuites>

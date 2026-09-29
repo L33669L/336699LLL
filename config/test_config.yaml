@@ -1,0 +1,20 @@
+# 只控制测试工具，不改变 burger.baseline.yaml。
+action_name: navigate_to_pose
+map_frame: map
+base_frame: base_link
+gazebo_topic: /world/default/dynamic_pose/info
+gazebo_model: burger
+use_sim_time: true
+server_timeout_sec: 10.0
+goal_response_timeout_sec: 10.0
+navigation_timeout_sec: 150.0
+cancel_timeout_sec: 5.0
+cancel_result_timeout_sec: 10.0
+gazebo_timeout_sec: 20.0
+tf_timeout_sec: 3.0
+warmup_sec: 1.0
+settle_sec: 0.5
+spin_period_sec: 0.05
+position_tolerance_m: 0.25
+# 独立测试验收阈值；Nav2 自身 yaw_goal_tolerance=0.25 rad，约 14.32°。
+yaw_tolerance_deg: 15.0

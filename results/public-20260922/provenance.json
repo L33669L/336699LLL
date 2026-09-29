@@ -1,0 +1,92 @@
+{
+  "prepared_on": "2026-09-29",
+  "note": "Historical evidence copies; no new integration run. Raw bag remains local. Source paths are repository-relative.",
+  "files": [
+    {
+      "source": "results/closeout-20260922/pytest-default.xml",
+      "published": "results/public-20260922/pytest-default.xml",
+      "source_sha256": "32461d0bb869b63211a8c9e7b489d59c5bb8f19e1e3b83bf51f8f060cf7e358e",
+      "published_sha256": "61898e9f970d17d7bd05cefe18ee771bb46500c5cc6a001dbab173534ae1535c",
+      "transformations": [
+        "remove hostname attribute",
+        "replace absolute project path with relative path",
+        "XML serialization only; test counts, outcomes, names and times retained"
+      ]
+    },
+    {
+      "source": "results/closeout-20260922/action-transport.xml",
+      "published": "results/public-20260922/action-transport.xml",
+      "source_sha256": "8e7cb3d8bc761cd6fb94e3d29555714b704e59656153ad7d9a39b0db7e765475",
+      "published_sha256": "3a65e57aa1d33d5c48db4741fe1b006388985d3dc21eb5446e8798a3c2a79900",
+      "transformations": [
+        "remove hostname attribute",
+        "replace absolute project path with relative path",
+        "XML serialization only; test counts, outcomes, names and times retained"
+      ]
+    },
+    {
+      "source": "results/closeout-20260922/integration-readonly.xml",
+      "published": "results/public-20260922/integration-readonly.xml",
+      "source_sha256": "5c588c35a8faa68461f3001990a8508afaaff6698ed32e0181b3080664b6bf3d",
+      "published_sha256": "6517dba5082d731734fc96c7bf139c3d1b1942c1f51e72f56f97b998cd223dbf",
+      "transformations": [
+        "remove hostname attribute",
+        "replace absolute project path with relative path",
+        "XML serialization only; test counts, outcomes, names and times retained"
+      ]
+    },
+    {
+      "source": "results/closeout-20260922/integration-navigation.xml",
+      "published": "results/public-20260922/integration-navigation.xml",
+      "source_sha256": "53c022c16134c31f583ace45c96c4e80759196aa76670d8577d5d61a2ea74eef",
+      "published_sha256": "a0fd8ddb8a0833b0aa303e349576fbf6fba034f01ccb61fbeef3187fa2a952a2",
+      "transformations": [
+        "remove hostname attribute",
+        "replace absolute project path with relative path",
+        "XML serialization only; test counts, outcomes, names and times retained"
+      ]
+    },
+    {
+      "source": "results/closeout-20260922/navigation.json",
+      "published": "results/public-20260922/navigation.json",
+      "source_sha256": "3a7973b75274d567534c93aecc5a1afb9cdbea230daef535d9d55dc1ab7667ab",
+      "published_sha256": "3a7973b75274d567534c93aecc5a1afb9cdbea230daef535d9d55dc1ab7667ab",
+      "transformations": []
+    },
+    {
+      "source": "results/closeout-20260922/bag-validation.json",
+      "published": "results/public-20260922/bag-validation.json",
+      "source_sha256": "0561c84da55e17f2e67e32e467f4cd3c3b989067ba148e6320d04e38a816eed9",
+      "published_sha256": "0561c84da55e17f2e67e32e467f4cd3c3b989067ba148e6320d04e38a816eed9",
+      "transformations": []
+    },
+    {
+      "source": "results/closeout-20260922/bag-info.txt",
+      "published": "results/public-20260922/bag-info.txt",
+      "source_sha256": "0fdc05b88c413121a90e3df822b17320543c32c3b8be2e3c81fab885e02c2875",
+      "published_sha256": "0fdc05b88c413121a90e3df822b17320543c32c3b8be2e3c81fab885e02c2875",
+      "transformations": []
+    },
+    {
+      "source": "results/closeout-20260922/package-versions.txt",
+      "published": "results/public-20260922/package-versions.txt",
+      "source_sha256": "725255582a6f99428aa72e4d60340b710f5fe7d32571cd06f0d811614918f48b",
+      "published_sha256": "725255582a6f99428aa72e4d60340b710f5fe7d32571cd06f0d811614918f48b",
+      "transformations": []
+    },
+    {
+      "source": "results/closeout-20260922/startup-verification.json",
+      "published": "results/public-20260922/startup-verification.json",
+      "source_sha256": "7fae25604a5e96d0be3c4ad29683941af413ef7ac5ac528ad4b0cbb4a13cbf87",
+      "published_sha256": "7fae25604a5e96d0be3c4ad29683941af413ef7ac5ac528ad4b0cbb4a13cbf87",
+      "transformations": []
+    },
+    {
+      "source": "results/navigation-20260927T073056198945Z-a9f66f47.json",
+      "published": "results/public-20260927/server-timeout.json",
+      "source_sha256": "7a002de0df3b867b9cfec0b892f5e3f96f0978f0f161e23e740462fe134ca807",
+      "published_sha256": "7a002de0df3b867b9cfec0b892f5e3f96f0978f0f161e23e740462fe134ca807",
+      "transformations": []
+    }
+  ]
+}
